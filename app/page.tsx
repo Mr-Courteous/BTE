@@ -21,7 +21,6 @@ export default function Home() {
         <h1 className="section-2-h2">
           These are the teams we have and here's how you can add value to us
         </h1>
-
         <div className="card-container">
 
           <div className="card">
@@ -62,7 +61,6 @@ export default function Home() {
               Keep the gears turning by assisting with technical needs. Whether it's solving challenges or setting up systems, you’ll play a vital role in ensuring everything runs smoothly.
 
             </p>
-
           </div>
 
 
@@ -229,9 +227,6 @@ export default function Home() {
               Your efforts won't go unnoticed- we will mention your name to a room full of  opportunities
             </p>
           </div>
-
-
-
           <div>  <button>
             Become a volunteer today
           </button>
@@ -260,8 +255,6 @@ export default function Home() {
 
         <input
           type="text"
-          // value={}
-          // onChange={}
           placeholder="What is your email address?"
 
         />
