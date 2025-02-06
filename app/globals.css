@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -18,4 +18,152 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+.first-section {
+  padding: 50px 50px;
+  /* padding:20px;
+  width: 80%; */
+  margin: auto;
+}
+
+
+.look-like-button {
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 10px;
+  max-width: 150px;
+}
+
+.first-text {
+  max-width: 150px;
+  font-size: 40px;
+}
+
+
+
+.second-section {
+
+  padding: 50px 50px;
+  /* padding:20px; */
+  /* width: 80%;
+  margin: auto; */
+  background-color: #B1D5E8;
+}
+
+.look-like-button-2 {
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 10px;
+  width: 190px;
+
+}
+
+.section-2-h2 {
+  line-height: 50px;
+  max-width: 600px;
+  font-weight: bold;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* margin: auto; */
+  justify-content: center;
+}
+
+.card {
+  /* background-color: white; */
+  color: black;
+  padding: 20px;
+  width: 280px;
+}
+
+.card:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+.after-flexes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+div.after-flexes p {
+  max-width: 500px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+
+div.after-flexes button {
+  background-color: black;
+  color: #F4F4F8;
+  /* padding: 10px; */
+  border-radius: 0px 15px 15px 15px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.third-section {
+
+  background-color: #35367E;
+  text-align: center;
+  padding: 25px;
+}
+
+.section-three-text-one {
+  color: #F4F4F8;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+div.third-section h1 {
+  line-height: 62.4px;
+  color: #F4F4F8;
+  font-weight: 600;
+  font-size: 48px;
+  padding: 5px;
+}
+
+.dont-miss-out {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+div.third-section input {
+
+  /* color: #F4F4F8; */
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 15px;
+  border-radius: 0px 0px 0px 15px;
+
+
+}
+
+
+div.third-section button {
+  background-color: black;
+  color: #F4F4F8;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 0px 15px 15px 0px;
+
 }
